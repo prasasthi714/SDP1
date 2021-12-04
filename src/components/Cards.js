@@ -5,38 +5,35 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Checkout Epic Options</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/EVM3.jpg'
-              text='The process of evm'
-              
+              src='images/EVM-1.jpg'
+              text='EVENT MANAGEMENT TECHNIQUE'
               
             />
             <CardItem
-              src='images/video.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/EVM-6.jpg'
+              text='EVENT MANAGEMENT CYCLE'
+              
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/EVM2.jpg'
-              text='Event management'
-              
-              
-            />
-            <CardItem
-              src='images/EVM1.jpg'
-              text='How to do planning'
-              
+              src='images/evm-3.jpg'
+              text='Celebrate Event without Tensions'
               
             />
             <CardItem
-              src='images/EVM4.jpg'
-              text='Event planning'
+              src='images/EVM-4.jpg'
+              text='EVENT PLANNING TIMELINE'
               
+            />
+            <CardItem
+              src='images/EVM-5.jpg'
+              text='BOOK FOR YOUR EVENT TODAY'
               
             />
           </ul>
